@@ -1,0 +1,22 @@
+Package: banks
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "William",
+           family = "Rinauto",
+           role = c("aut", "cre"),
+           email = "william.rinauto@gmail.com")
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Imports: 
+    DBI,
+    dplyr,
+    stringr,
+    rvest,
+    RSQLite,
+    magrittr,
+    rlang,
+    purrr
